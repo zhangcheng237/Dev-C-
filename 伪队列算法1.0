@@ -1,0 +1,21 @@
+/*用字符串实现的伪队列算法1.0，队列长度为2，不存在删除元素操作 
+（队列用后即废）
+*/
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	string str;
+	string fpush;
+	string lpush;
+	str.size();
+	if(str.size()==0)
+		cout<<"The Queue is empty!"<<endl;
+	cin>>fpush;
+	cin>>lpush;
+	fpush.replace(0,0,str);
+	lpush.replace(1,0,str);
+	cout<<fpush.replace(0,0,str)<<" "<<lpush.replace(1,0,str);
+	return 0;
+}
